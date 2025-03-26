@@ -14,7 +14,7 @@ import org.testng.annotations. Test;
 // Annotations Example
 public class Example1 {
 
-		// Test Case 1
+	// Test Case 1
 	@Test
 	public void testCasel() {
 		System.out.println("in Test Case 1");
