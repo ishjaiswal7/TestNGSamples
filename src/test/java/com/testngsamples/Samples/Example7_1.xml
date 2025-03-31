@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Three">
+	<test name="Test Three">
+		
+		<groups>
+			<run>
+				<include name="login"></include>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="com.testngsamples.Samples.Example7_1_G1"/>
+			<class name="com.testngsamples.Samples.Example7_1_G2" />
+			<class name="com.testngsamples.Samples.Example7_1_G3" />
+		</classes>
+		
+	</test>
+</suite>
