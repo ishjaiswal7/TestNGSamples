@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Test cases inside a java class will run parallel  -->
+
+<suite name = "Suite One">
+	<test name = "Test One" parallel= "classes" thread-count="3">
+		<classes>
+			<class name="com.testngsamples.Samples.Example12_1"/>
+			<class name="com.testngsamples.Samples.Example12_2"/>
+			<class name="com.testngsamples.Samples.Example12_3"/>
+		</classes>
+	</test>
+</suite>
